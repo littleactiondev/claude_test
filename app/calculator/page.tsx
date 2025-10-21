@@ -5,7 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
-import { calculateInterest, calculateSimpleInterest, compareInterestMethods } from '@/lib/interest-calculator'
+import { calculateInterest, compareInterestMethods } from '@/lib/interest-calculator'
 import { formatCurrency, formatPercent } from '@/lib/utils'
 
 export default function CalculatorPage() {

@@ -1,4 +1,4 @@
-import { addMonths, format } from 'date-fns'
+import { addMonths } from 'date-fns'
 import type { SavingsProduct, WindmillAccount, SimulationResult } from '@/types'
 import { calculateInterest } from './interest-calculator'
 
