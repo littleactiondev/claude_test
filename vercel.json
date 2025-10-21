@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd windmill-savings && npm run build",
+  "devCommand": "cd windmill-savings && npm run dev",
+  "installCommand": "cd windmill-savings && npm install",
+  "framework": "nextjs",
+  "outputDirectory": "windmill-savings/.next"
+}
